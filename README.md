@@ -6,7 +6,7 @@ It allows users to perform simple mathematical calculations directly in the brow
 🌐 Live Website
 
 You can try the calculator here:
-🔗 https://yourusername.github.io/calculator-project/
+🔗 https://ashiquealin99-hue.github.io/calculator-project/
 
 ## Features
 
