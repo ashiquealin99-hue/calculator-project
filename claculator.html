@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Calcualtor</title>
+        <link rel="stylesheet" href="calculator.css">
+        
+    </head>
+    <body>
+        <h1>My Calcualtor</h1>
+        <div id="div_1">
+           
+        </div>
+        <input type="text" id="display" readonly style="color: black; font-size: 24px; height: 50px; width: 100%; text-align: right;"> 
+        <div>
+            <div class="math_1">
+                <div class="math_2" id="perc" onclick="get_1()"><h2>%</h2></div>
+                <div class="math_2" id="cancel" onclick="clearDisplay()"><h2>CE</h2></div>
+                <div class="math_2" id="clear" onclick="backspace()"><h2>C</h2></div>
+                <div class="math_2" onclick="get_1()"> </div>
+            </div>
+            <div class="math_1">
+                <div class="math_2" onclick="get_1()"></div>
+                <div class="math_2" onclick="get_1()"></div>
+                <div class="math_2" onclick="get_1()"></div>
+                <div class="math_2" onclick="get_1()"></div>
+            </div>
+            <div class="math_1">
+                <div class="math_2" id="seven" onclick="appendValue('7')"><h2>7</h2></div>
+                <div class="math_2" id="eight" onclick="appendValue('8')"><h2>8</h2></div>
+                <div class="math_2" id="nine" onclick="appendValue('9')"><h2>9</h2></div>
+                <div class="math_2" id="mul" onclick="appendValue('*')"><h2>*</h2></div>
+            </div>
+            <div class="math_1">
+                <div class="math_2" id="four" onclick="appendValue('4')"><h2>4</h2></div>
+                <div class="math_2" id="five" onclick="appendValue('5')"><h2>5</h2></div>
+                <div class="math_2" id="six" onclick="appendValue('6')"><h2>6</h2></div>
+                <div class="math_2" id="add" onclick="appendValue('+')"><h1>+</h1></div>
+            </div>
+            <div class="math_1">
+                <div class="math_2" id="one" onclick="appendValue('1')"><h2>1</h2></div>
+                <div class="math_2" id="two" onclick="appendValue('2')"><h2>2</h2></div>
+                <div class="math_2" id="three" onclick="appendValue('3')"><h2>3</h2></div>
+                <div class="math_2" id="subst" onclick="appendValue('-')"><h2>-</h2></div>
+                
+            </div>
+            <div class="math_1">
+                <div class="math_2"></div>
+                <div class="math_2" id="subst" onclick="appendValue('0')"><h2>0</h2></div>
+                <div class="math_2" onclick="appendValue('/')">/</div>
+                <div class="math_2" onclick="calculate()">=</div>
+            </div>
+            
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>

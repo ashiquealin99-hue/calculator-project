@@ -1,0 +1,27 @@
+#div_1{
+    background-color: aqua;
+    height: 200px;
+    width: 100%;
+}
+.math_1{
+    background-color: blue;
+    display: flex;
+    gap: 5px;
+    margin: 5px;
+    
+}
+.math_2{
+   background-color: gray;
+    height: 60px;
+    width: 160px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.math_2:hover{
+    background-color: darkgray;
+}
