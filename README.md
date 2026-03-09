@@ -3,6 +3,11 @@
 This is a basic calculator web application created using **HTML, CSS, and JavaScript**.
 It allows users to perform simple mathematical calculations directly in the browser.
 
+🌐 Live Website
+
+You can try the calculator here:
+🔗 https://yourusername.github.io/calculator-project/
+
 ## Features
 
 * Addition
